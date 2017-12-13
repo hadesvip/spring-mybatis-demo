@@ -18,6 +18,7 @@
 
     <bean id="stringHttpMessageConverter" class="org.springframework.http.converter.StringHttpMessageConverter">
         <property name="defaultCharset" value="UTF-8"/>
+        <property name="writeAcceptCharset" value="false"/>
     </bean>
 
     <mvc:annotation-driven>
